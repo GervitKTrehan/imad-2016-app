@@ -18,7 +18,7 @@ var articles = {
     'article-two': {
     title: 'Article Two | Gervit K Trehan',
     heading: 'Article Two',
-    date: 'Sep 5, 2016',
+    date: 'Sep 10, 2016',
     content:`<p>
                 This the content for my second article.
             </p>`
