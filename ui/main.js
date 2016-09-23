@@ -21,6 +21,6 @@ button.onclick = function () {
       };
       
       // Make a request
-      request.open('GET', 'hhtp://gervitktrehan.imad.hasura-app.io/counter', true);
+      request.open('GET', 'http://gervitktrehan.imad.hasura-app.io/counter', true);
       request.send(null);
 }; 
