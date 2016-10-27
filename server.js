@@ -124,7 +124,7 @@ app.get('/articles/:articleName', function (req, res) {
               res.status(404).send('Article not found');
           } else {
               var articleDta = result.rows[0];
-              res.send(createTemplate(articleDta));
+              res.send(createTemplate(articleData));
           }
       }
    });
